@@ -43,7 +43,6 @@ header .logo{
   margin: auto;
   justify-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  background-position: center center;
 }
 
 #mission div{
@@ -61,4 +60,29 @@ header .logo{
 #mission h4{
   padding: 15px 0px;
   margin: 10px
+}
+
+#featured{
+  display: flex;
+  width: 1000px;
+  display: block;
+}
+
+#teamonth{
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+
+#teas{
+  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#teas img{
+  height: 200px;
+  width: 300px;
+}
 }
