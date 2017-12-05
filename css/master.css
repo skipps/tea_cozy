@@ -92,3 +92,40 @@ header .logo{
 #teas p{
   margin-top: 15px;
 }
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+.addresses{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.addresses span{
+  width: 300px;
+  margin: 15px 20px 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+.contact{
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 15px 0px;
+}
+
+.copyright{
+  margin-top: 20px;
+  text-align: left;
+}
